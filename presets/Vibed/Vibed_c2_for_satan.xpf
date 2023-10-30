@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.2.2" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings muted="0" name="Vibed" type="0" solo="0">
+    <instrumenttrack vol="100" pitchrange="1" basenote="57" usemasterpitch="1" pitch="0" pan="0" fxch="0">
+      <instrument name="vibedstrings">
+        <vibedstrings active0="1" active3="0" active4="0" stiffness0="0" pan0="0" active5="0" slap0="0.42" octave0="2" active7="0" pick0="0" active1="0" version="0.1" detune0="0" graph0="AAAAADD7SD02vcg9g0AWPsLFRz7Nz3g+MaCUPtR8rD4W78M+gOjaPupa8T49nAM/2jkOP8B/GD+aZyI/SusrP/MENT/6rj0/A+RFPwKfTT8y21Q/G5RbP5jFYT/Ya2c/XoNsPwgJcT8L+nQ/+FN4P78Uez+sOn0/bcR+Pw+xfz8AAIA/D7F/P23Efj+sOn0/vhR7P/hTeD8K+nQ/CAlxP16DbD/Ya2c/l8VhPxqUWz8w21Q/Ap9NPwTkRT/4rj0/8wQ1P0jrKz+ZZyI/vX8YP9k5Dj89nAM/5lrxPn/o2j4Q78M+0nysPjOglD7Fz3g+wcVHPnpAFj4wvcg9/fpIPS69u7Ms+0i9R73IvYVAFr7NxUe+0M94vjiglL7XfKy+Fe/DvoXo2r7rWvG+P5wDv9s5Dr/Afxi/m2civ0rrK7/1BDW/+q49vwPkRb8Dn02/NNtUvxmUW7+YxWG/2Wtnv2GDbL8ICXG/C/p0v/lTeL++FHu/rDp9v23Efr8PsX+/AACAvw+xf79txH6/rDp9v74Ue7/3U3i/Cfp0vwgJcb9dg2y/1Wtnv5jFYb8ZlFu/L9tUvwOfTb8D5EW/9649v+8ENb9K6yu/l2civ7x/GL/bOQ6/PJwDv+Na8b526Nq+Fe/Dvs98rL4ooJS+z894vrzFR750QBa+BL3IvSb7SL0=" active6="0" length0="1" active2="0" pickup0="0.05" impulse0="0" active8="0" volume0="100"/>
+      </instrument>
+      <eldata ftype="0" fres="0.5" fwet="0" fcut="14000">
+        <elvol amt="0" pdel="0" latt="0" lshp="0" lspd_syncmode="0" dec="0.5" x100="0" userwavefile="" lamt="0" lspd_denominator="4" ctlenvamt="0" sustain="0.5" hold="0.5" lspd="0.1" lspd_numerator="4" att="0" rel="0.1" lpdel="0"/>
+        <elcut amt="0" pdel="0" latt="0" lshp="0" lspd_syncmode="0" dec="0.5" x100="0" userwavefile="" lamt="0" lspd_denominator="4" ctlenvamt="0" sustain="0.5" hold="0.5" lspd="0.1" lspd_numerator="4" att="0" rel="0.1" lpdel="0"/>
+        <elres amt="0" pdel="0" latt="0" lshp="0" lspd_syncmode="0" dec="0.5" x100="0" userwavefile="" lamt="0" lspd_denominator="4" ctlenvamt="0" sustain="0.5" hold="0.5" lspd="0.1" lspd_numerator="4" att="0" rel="0.1" lpdel="0"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arptime_numerator="4" arpmode="0" arp="0" arpskip="0" arprange="1" arptime="200" arp-enabled="0" arpmiss="0" arptime_denominator="4" arptime_syncmode="0" arpgate="100" arpdir="0" arpcycle="0"/>
+      <midiport outputchannel="1" fixedinputvelocity="-1" outputprogram="1" writable="0" outputcontroller="0" inputchannel="0" fixedoutputvelocity="-1" inputcontroller="0" basevelocity="63" readable="0" fixedoutputnote="-1"/>
+      <fxchain enabled="1" numofeffects="3">
+        <effect wet="1" autoquit_numerator="4" autoquit="1" autoquit_denominator="4" gate="0" autoquit_syncmode="0" name="ladspaeffect" on="1">
+          <ladspacontrols link="1" ports="6">
+            <port01 link="1" data="3.12"/>
+            <port02 link="1" data="1"/>
+            <port03 link="1" data="1"/>
+            <port11 data="3.12"/>
+            <port12 data="1"/>
+            <port13 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="AmpIII" name="plugin"/>
+          </key>
+        </effect>
+        <effect wet="1" autoquit_numerator="4" autoquit="1" autoquit_denominator="4" gate="0" autoquit_syncmode="0" name="ladspaeffect" on="1">
+          <ladspacontrols ports="5">
+            <port04 data_denominator="4" data_numerator="4" data_syncmode="0" data="500"/>
+            <port05 data="0"/>
+            <port06 data_denominator="4" data_numerator="4" data_syncmode="0" data="500"/>
+            <port07 data="0"/>
+            <port08 data="2500.5"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="cmt" name="file"/>
+            <attribute value="canyon_delay" name="plugin"/>
+          </key>
+        </effect>
+        <effect wet="1" autoquit_numerator="4" autoquit="1" autoquit_denominator="4" gate="0" autoquit_syncmode="0" name="ladspaeffect" on="1">
+          <ladspacontrols link="1" ports="14">
+            <port00 link="1" data="0.5"/>
+            <port01 link="1" data="1"/>
+            <port02 data_denominator="4" data_numerator="4" link="1" data_syncmode="0" data="2625"/>
+            <port03 link="1" data="1"/>
+            <port04 data_denominator="4" data_numerator="4" link="1" data_syncmode="0" data="0"/>
+            <port05 link="1" data="0"/>
+            <port06 link="1" data="0"/>
+            <port10 data="0.5"/>
+            <port11 data="1"/>
+            <port12 data_denominator="4" data_numerator="4" data_syncmode="0" data="2625"/>
+            <port13 data="1"/>
+            <port14 data_denominator="4" data_numerator="4" data_syncmode="0" data="0"/>
+            <port15 data="0"/>
+            <port16 data="0"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="giant_flange_1437" name="file"/>
+            <attribute value="giantFlange" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
